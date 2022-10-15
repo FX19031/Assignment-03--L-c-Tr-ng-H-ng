@@ -1,0 +1,98 @@
+@media (min-width: 500px) and (max-width: 1024px) {
+  .banner-img {
+    background-position-x: center;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    padding: 16px;
+    margin-right: 0.7rem;
+    padding-bottom: 30px;
+  }
+
+  #nav-bar {
+    margin-top: 1rem;
+  }
+
+  #personal-info {
+    font-size: 16px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+    margin-top: 0px;
+  }
+
+  #target {
+    font-size: 16px;
+    padding: 25px 30px 10px 10px;
+  }
+
+  #target h1,
+  #personal-info h1 {
+    font-size: 1.65rem;
+    font-weight: 600;
+  }
+
+  .hobbit-text {
+    font-size: 0.9rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .job-text {
+    font-size: 18px;
+  }
+
+  .cer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #project .container {
+    padding: 30px 25px;
+  }
+
+  #project .col-md-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .project-title {
+    font-size: 14px;
+  }
+
+  .project-border {
+    font-size: 14px;
+    padding: 10px 0px 10px 4px;
+  }
+
+  .now {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .project-span {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  tr td:first-child {
+    width: 30%;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 0;
+    padding-left: 3px;
+  }
+
+  tr td:last-child {
+    font-size: 14px;
+    padding-right: 4px;
+  }
+}

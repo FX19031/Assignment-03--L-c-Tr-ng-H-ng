@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+  section > .container {
+    width: 100vw;
+  }
+
+  .banner-img {
+    background-position-x: center;
+  }
+
+  .nav-text {
+    display: none;
+  }
+
+  #nav-bar {
+    height: auto;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+
+  #target {
+    max-width: 768px;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+
+  #personal-info {
+    max-width: 768px;
+    margin-top: 5px;
+    padding-top: 10px;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .job-text {
+    font-size: 16px;
+  }
+
+  .job-box-grid {
+    padding-right: 10px;
+  }
+
+  .cer-content-2 {
+    border-left: none;
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+  #footer a {
+    display: none;
+  }
+}

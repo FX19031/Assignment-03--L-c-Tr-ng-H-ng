@@ -1,0 +1,287 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+  color: #1d3557;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+  display: block;
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/* BANNER */
+
+.banner-img {
+  position: relative;
+  background-image: url(../images/banner.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  filter: brightness(50%);
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.banner-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.banner-text h1 {
+  text-transform: uppercase;
+}
+
+.banner-text span {
+  color: #bdc3c7;
+}
+
+/* NAVBAR */
+
+#nav-bar a:link,
+a:visited {
+  text-decoration: none;
+  color: #1d3557;
+  text-transform: uppercase;
+  border-left: 2px solid #dfe6e9;
+  padding: 30px 20px 20px 32px;
+}
+
+#nav-bar a:hover,
+a:active {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-text {
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.nav-text h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+.nav-text span {
+  color: #bdc3c7;
+}
+
+.icon {
+  color: #0abde3;
+  font-weight: bold;
+}
+
+li span {
+  font-weight: bold;
+}
+
+.mt-40 {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+
+#target {
+  padding: 40px 30px;
+  background-color: #dadee1;
+  font-size: 18px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#personal-info {
+  padding: 20px 30px 80px 30px;
+  background-color: #ccd2d5;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+/* Job Info */
+
+.job-box-grid {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  column-gap: 20px;
+  row-gap: 40px;
+  border: 1px solid #bdc3c7;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+  align-content: start;
+}
+
+.job-content {
+  grid-column: 1/-1;
+  margin: 10px;
+}
+
+.job-title {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.job-text {
+  font-size: 18px;
+}
+
+.now {
+  background-color: #0abde3;
+  padding: 4px 4px;
+  color: #fff;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.list {
+  position: relative;
+}
+
+.job-node::before {
+  content: "•";
+  color: #0abde3;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+
+/* Sở thích */
+.job-icon1 {
+  font-size: 30px;
+  color: #0abde3;
+}
+
+/* Ngôn ngữ + Kỹ năng */
+
+.good {
+  background-color: #0abde3;
+  display: inline-block;
+  height: 3px;
+  width: 45px;
+}
+
+.bad {
+  background-color: #cfcfcf;
+  display: inline-block;
+  height: 3px;
+  width: 45px;
+}
+
+.cer-img {
+  width: 220px;
+  margin-right: 5px;
+  margin-left: 5px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cer-content {
+  display: flex;
+  gap: 5px;
+}
+
+.cer-content-2 {
+  padding-left: 15px;
+  border-left: 2px solid #d6c08d;
+}
+
+.cer-content-3 {
+  padding-top: 20px;
+  border-top: 2px solid #d6c08d;
+}
+
+.project-flex {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.now {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.project-span {
+  margin-left: 4px;
+  margin-right: 20px;
+}
+
+.project-title {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  border-left: 1px solid #bdc3c7;
+  border-right: 1px solid #bdc3c7;
+}
+
+.project-border {
+  padding: 10px;
+  border-top: 1px solid #bdc3c7;
+  border-left: 1px solid #bdc3c7;
+  border-right: 1px solid #bdc3c7;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid #bdc3c7;
+}
+
+td {
+  padding: 10px;
+}
+
+tr td:first-child {
+  width: 94px;
+  vertical-align: top;
+  font-weight: bold;
+  padding-right: 0;
+}
+
+tr td:last-child {
+  padding-left: 0;
+}
+
+/* FOOTER */
+
+#footer {
+  line-height: 1.5;
+  text-align: center;
+}
+
+#footer a:link,
+a:visited {
+  font-size: 18px;
+  text-decoration: none;
+  color: #bdc3c7;
+}
+
+#footer a:hover,
+a:active {
+  cursor: pointer;
+  color: #0abde3;
+  font-weight: bold;
+}
